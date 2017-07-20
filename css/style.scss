@@ -1,0 +1,117 @@
+.header {
+    .banner_box {
+        background: #EEEEEE;
+        .banner {
+            height: 120px;
+            background: #eee;
+            a {
+                display: block;
+                width: 1226px;
+                height: 120px;
+                margin: 0 auto;
+            }
+        }
+        .nav_top {
+            background: #333333;
+            .nav_box {
+                width: 1226px;
+                height: 40px;
+                margin: 0 auto;
+                .nav_ul {
+                    float: left;
+                    li:nth-of-type(1) {
+                        padding: 0;
+                    }
+                    li:nth-of-type(10) {
+                        border-right: none;
+                    }
+                    li:hover a {
+                        color: #FDFDFB;
+                    }
+                    li {
+                        float: left;
+                        padding: 0 9px 0 8px;
+                        border-right: 1px solid #424242;
+                        margin-top: 14px;
+                        line-height: 12px;
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .r_box {
+                    float: right;
+                    ul {
+                        float: left;
+                        .login {
+                            padding-right: 8px;
+                            border-right: 1px solid #424242;
+                        }
+                        .regsiter {
+                            padding: 0 8px;
+                            border-right: 1px solid #424242;
+                        }
+                        .xinxi {
+                            padding: 0 25px 0 12px;
+                        }
+                        li:hover a {
+                            color: #FDFDFB;
+                        }
+                        li {
+                            float: left;
+                            margin-top: 14px;
+                            line-height: 12px;
+                            a {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .buyCar:hover{
+                            background: white;
+                            color: #FF6700;
+                            div{
+                                
+                                height: 135px;
+                            }
+                        }
+                    .buyCar{
+                        float: left;
+                        width: 120px;
+                        height: 40px;
+                        background: #424242;
+                        position: relative;
+                        .buyCar1_span{
+                            position: absolute;
+                            width: 20px;
+                            height: 14px;
+                            margin-top: 14px;
+                            line-height: 20px;
+                            padding: 0 4px 0 17px;
+                           img{
+                            width: 20px;
+                            height: 14px;
+                        }
+                        }
+                        .buyCar2_span{
+                            float: right;
+                            font-size: 12px;
+                            line-height: 12px;
+                            margin-top: 14px;
+                            margin-right: 20px;
+                        }
+                        .buyCar_div{
+                            transition: 2s all;
+                            width: 300px;
+                            height: 0px;
+                            background: white;
+                            position: absolute;
+                            left: -180px;
+                            top: 40px;
+                            z-index: 999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

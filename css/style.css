@@ -1,0 +1,90 @@
+.header .banner_box {
+  background: #EEEEEE; }
+  .header .banner_box .banner {
+    height: 120px;
+    background: #eee; }
+    .header .banner_box .banner a {
+      display: block;
+      width: 1226px;
+      height: 120px;
+      margin: 0 auto; }
+  .header .banner_box .nav_top {
+    background: #333333; }
+    .header .banner_box .nav_top .nav_box {
+      width: 1226px;
+      height: 40px;
+      margin: 0 auto; }
+      .header .banner_box .nav_top .nav_box .nav_ul {
+        float: left; }
+        .header .banner_box .nav_top .nav_box .nav_ul li:nth-of-type(1) {
+          padding: 0; }
+        .header .banner_box .nav_top .nav_box .nav_ul li:nth-of-type(10) {
+          border-right: none; }
+        .header .banner_box .nav_top .nav_box .nav_ul li:hover a {
+          color: #FDFDFB; }
+        .header .banner_box .nav_top .nav_box .nav_ul li {
+          float: left;
+          padding: 0 9px 0 8px;
+          border-right: 1px solid #424242;
+          margin-top: 14px;
+          line-height: 12px; }
+          .header .banner_box .nav_top .nav_box .nav_ul li a {
+            font-size: 12px; }
+      .header .banner_box .nav_top .nav_box .r_box {
+        float: right; }
+        .header .banner_box .nav_top .nav_box .r_box ul {
+          float: left; }
+          .header .banner_box .nav_top .nav_box .r_box ul .login {
+            padding-right: 8px;
+            border-right: 1px solid #424242; }
+          .header .banner_box .nav_top .nav_box .r_box ul .regsiter {
+            padding: 0 8px;
+            border-right: 1px solid #424242; }
+          .header .banner_box .nav_top .nav_box .r_box ul .xinxi {
+            padding: 0 25px 0 12px; }
+          .header .banner_box .nav_top .nav_box .r_box ul li:hover a {
+            color: #FDFDFB; }
+          .header .banner_box .nav_top .nav_box .r_box ul li {
+            float: left;
+            margin-top: 14px;
+            line-height: 12px; }
+            .header .banner_box .nav_top .nav_box .r_box ul li a {
+              font-size: 12px; }
+        .header .banner_box .nav_top .nav_box .r_box .buyCar:hover {
+          background: white;
+          color: #FF6700; }
+          .header .banner_box .nav_top .nav_box .r_box .buyCar:hover div {
+            height: 135px; }
+        .header .banner_box .nav_top .nav_box .r_box .buyCar {
+          float: left;
+          width: 120px;
+          height: 40px;
+          background: #424242;
+          position: relative; }
+          .header .banner_box .nav_top .nav_box .r_box .buyCar .buyCar1_span {
+            position: absolute;
+            width: 20px;
+            height: 14px;
+            margin-top: 14px;
+            line-height: 20px;
+            padding: 0 4px 0 17px; }
+            .header .banner_box .nav_top .nav_box .r_box .buyCar .buyCar1_span img {
+              width: 20px;
+              height: 14px; }
+          .header .banner_box .nav_top .nav_box .r_box .buyCar .buyCar2_span {
+            float: right;
+            font-size: 12px;
+            line-height: 12px;
+            margin-top: 14px;
+            margin-right: 20px; }
+          .header .banner_box .nav_top .nav_box .r_box .buyCar .buyCar_div {
+            transition: 2s all;
+            width: 300px;
+            height: 0px;
+            background: white;
+            position: absolute;
+            left: -180px;
+            top: 40px;
+            z-index: 999; }
+
+/*# sourceMappingURL=style.css.map */
