@@ -206,7 +206,7 @@ body {
         .banner > div:nth-of-type(1) ul li div {
           transition: 2s all;
           width: 0;
-          height: 486px;
+          height: 463px;
           position: absolute;
           background: white;
           left: 234px;
